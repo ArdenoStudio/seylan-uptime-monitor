@@ -1,0 +1,48 @@
+owner: Cookie-Cat21
+repo: seylan-uptime-monitor
+
+sites:
+  - name: SeylanHub Web
+    url: https://seylan-hub.vercel.app
+  - name: Core API
+    url: https://seylan-hub-api.fly.dev/health
+    expectedStatusCodes:
+      - 200
+  - name: Wallet Service
+    url: https://seylan-hub-api.fly.dev/api/wallet/rules/demo_user
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
+  - name: Loans Service
+    url: https://seylan-hub-api.fly.dev/api/loans/demo_user/health
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
+  - name: Demo Data
+    url: https://seylan-hub-api.fly.dev/mock/account-context/demo_user
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
+
+status-website:
+  name: SeylanHub Status
+  introTitle: "**SeylanHub Status** — real-time uptime and incident history"
+  introMessage: This is the live status page for SeylanHub. We monitor every endpoint every 5 minutes.
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/Cookie-Cat21/seylan-uptime-monitor
+
+assignees:
+  - Cookie-Cat21
+
+i18n:
+  activeIncidents: Active incidents
+  allSystemsOperational: All systems operational
+  incidentReport: "Incident report:"
+  incidentReportOn: "Incident report on"
+  resolved: resolved

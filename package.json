@@ -1,0 +1,6 @@
+{
+  "name": "seylan-uptime-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Uptime monitoring for SeylanHub — powered by Upptime."
+}
