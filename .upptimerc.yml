@@ -4,6 +4,8 @@ repo: seylan-uptime-monitor
 sites:
   - name: SeylanHub Web
     url: https://seylan-hub.vercel.app
+  - name: SeylanHub WWW
+    url: https://seylanhub-www.vercel.app
   - name: Core API
     url: https://seylan-hub-api.fly.dev/health
     expectedStatusCodes:
