@@ -1,7 +1,7 @@
 url: https://seylan-hub-api.fly.dev/api/loans/demo_user/health
 status: up
 code: 200
-responseTime: 275
-lastUpdated: 2026-08-24T23:25:05.523Z
+responseTime: 267
+lastUpdated: 2026-08-25T23:27:23.243Z
 startTime: 2026-05-16T11:46:25.627Z
 generator: Upptime <https://github.com/upptime/upptime>
